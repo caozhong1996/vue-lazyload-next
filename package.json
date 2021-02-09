@@ -1,0 +1,72 @@
+{
+  "name": "vue-lazyload-next",
+  "version": "0.0.1",
+  "description": "Vue module for lazy-loading images in your vue3.0 applications.",
+  "main": "vue-lazyload-next.js",
+  "module": "vue-lazyload-next.esm.js",
+  "unpkg": "vue-lazyload-next.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint ./src",
+    "test": "karma start",
+    "test:types": "tsc -p types/test",
+    "test:debug": "cross-env DEBUG=true karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caozhong1996/vue-lazyload-next.git"
+  },
+  "typings": "types/index.d.ts",
+  "keywords": [
+    "vue-lazyload-next",
+    "vue",
+    "lazyload",
+    "vue-directive"
+  ],
+  "author": "caozhong <caozhong1996@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/caozhong1996/vue-lazyload-next/issues"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "assign-deep": "^1.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "karma": "^6.0.3",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-expect": "^1.1.3",
+    "karma-mocha": "^2.0.1",
+    "karma-rollup-preprocessor": "^7.0.5",
+    "mocha": "^8.2.1",
+    "puppeteer": "^5.5.0",
+    "rollup": "^2.38.1",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-commonjs": "^8.4.1",
+    "rollup-plugin-node-resolve": "^3.2.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "vue": "^3.0.5",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.3"
+  }
+}
