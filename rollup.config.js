@@ -9,9 +9,9 @@ export default [
     input: 'src/index.ts',
     external: ['vue'],
     output: {
-      name: 'vue-lazyload-next',
+      name: 'vueLazyloadNext',
       globals: {
-        vue: 'vue'
+        vue: 'Vue'
       },
       file: 'vue-lazyload-next.js',
       format: 'umd'

@@ -1,6 +1,6 @@
 {
   "name": "vue-lazyload-next",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue module for lazy-loading images in your vue3.0 applications.",
   "main": "vue-lazyload-next.js",
   "module": "vue-lazyload-next.esm.js",
@@ -20,7 +20,8 @@
   "keywords": [
     "vue-lazyload-next",
     "vue",
-    "lazyload",
+    "vue3.0",
+    "image-lazyload",
     "vue-directive"
   ],
   "author": "caozhong <caozhong1996@gmail.com>",
